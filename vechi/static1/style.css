@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #212424;
+  color: #d1d1d1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.left {
+  height: 100vh;
+  width: 300px;
+  border-right: 1px solid #4d4f4f;
+}
+
+#logo {
+  height: 41px;
+  font-size: 30px;
+  padding: 13px 20px;
+  border-bottom: 1px solid #4d4f4f;
+}
+
+#logo span {
+  font-weight: bold;
+  color: #b1b1b1;
+}
+
+#contact {
+  position: absolute;
+  bottom: 0;
+  height: 41px;
+  padding: 13px 0;
+  width: 300px;
+  border-top: 1px solid #4d4f4f;
+}
+
+.tel, .mail {
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+#menu ul {
+  margin: 20px;
+  list-style: none;
+  line-height: 48px;
+}
+
+#menu ul li {
+  color: rgb(65, 199, 199);
+  font-weight: bold;
+}
+
+#menu ul span {
+  line-height: 12px;
+}
+
+#head {
+  position: absolute;
+  left: 301px;
+  top: 0px;
+  height: 67px;
+  width: 1619px;
+  border-bottom: 1px solid #4d4f4f;
+}

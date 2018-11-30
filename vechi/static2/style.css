@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 62.5%;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.inner-container {
+  padding: 11.2rem 21.4rem 8.5rem;
+}
+
+.inner-container svg {
+  width: 1000px;
+  height: auto;
+  padding-bottom: 6rem;
+}
+
+.inner-container p {
+  font-size: 5.6rem;
+  letter-spacing: .075rem;
+  line-height: 2;
+  color: #231F1F;
+  margin: 0;
+  padding: 0;
+  margin-left: .3rem;
+  position: relative;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.inner-container p span {
+  padding-bottom: .3rem;
+}
+
+.border {
+  border-bottom-width: .9rem;
+  border-bottom-style: solid;
+}
+
+.pink {
+  border-bottom-color: #F48B7B;
+}
+
+.green {
+  border-bottom-color: #C6DDCD;
+}
+
+.yellow {
+  border-bottom-color: #EAC983;
+}
+
+.lila {
+  border-bottom-color: #C5CADD;
+}
+
+.white {
+  border-bottom-color: #ffffff;
+}
+
+p.contact-rapid {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 8rem;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.cursuri-copii {
+  background-color: #F48B7B;
+}
+
+h3 {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 6rem;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+.column-left {
+  width: 60%;
+  display: inline-block;
+  margin-top: 0;
+  padding-top: 0;
+  vertical-align: middle;
+}
+
+.column-right {
+  width: 39%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+p.extended {
+  font-size: 2.4rem;
+  padding-left: .2rem;
+  line-height: 1.5;
+  margin: 0;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: bold;
+}
+
+.activitati-germana {
+  background-color: #C5CADD;
+}
+
+.activitati-germana h2 {
+  margin-left: 8rem;
+}
+
+.lista-activitati {
+  background-color: #231F1F;
+  color: white;
+  padding: 11.2rem 21.4rem 8.5rem;
+}
+
+h4 {
+  font-size: 2.4rem;
+  font-family: 'IBM Plex Mono', monospace;
+  border-bottom-width: .5rem;
+  line-height: 4.5rem;
+  border-bottom-style: solid;
+  border-bottom-color: #F48B7B;
+}

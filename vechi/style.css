@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 62.5%;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+section {
+  padding: 11.2rem 21.4rem 8.5rem;
+  color: #231F1F;
+}
+section .logo {
+  width: 1000px;
+  height: auto;
+  padding: 6rem 1rem 3rem;
+}
+section .contact-rapid {
+  font-weight: bold;
+  font-size: 2rem;
+  margin-top: 8rem;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+h1 {
+  font-size: 5.6rem;
+  letter-spacing: 0.075rem;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+  margin-left: 0.3rem;
+  position: relative;
+  font-family: "IBM Plex Mono", monospace;
+}
+h1 span {
+  padding-bottom: 0.3rem;
+}
+
+h2 {
+  font-size: 6rem;
+  line-height: 1.5;
+  font-family: "IBM Plex Mono", monospace;
+  padding-bottom: 6rem;
+}
+h2 span {
+  padding-bottom: 0.3rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 2.4rem;
+  font-family: "IBM Plex Mono", monospace;
+  border-bottom-width: 0.5rem;
+  line-height: 4.5rem;
+  border-bottom-style: solid;
+  border-bottom-color: #F48B7B;
+}
+
+p {
+  font-size: 2.4rem;
+  line-height: 1.5;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: bold;
+}
+
+.coloana-mare {
+  width: 60%;
+  display: inline-block;
+  margin-top: 0;
+  padding-top: 0;
+  vertical-align: middle;
+}
+
+.coloana-mica {
+  width: 39%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.flexat {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin: -1rem;
+}
+
+.card {
+  padding: 2rem;
+  flex: 1;
+  margin: 1rem;
+  min-width: 400px;
+  border: 1px solid #f8b4aa;
+}
+.card i {
+  display: block;
+  text-align: center;
+  font-size: 8rem;
+  color: #f8b4aa;
+  margin: 1rem;
+  filter: drop-shadow(2px 2px 2px #f27663);
+}
+
+.underline {
+  border-bottom-width: 0.9rem;
+  border-bottom-style: solid;
+}
+
+.pink {
+  border-bottom-color: #F48B7B;
+}
+
+.green {
+  border-bottom-color: #C6DDCD;
+}
+
+.yellow {
+  border-bottom-color: #EAC983;
+}
+
+.lila {
+  border-bottom-color: #C5CADD;
+}
+
+.white {
+  border-bottom-color: #FFFFFF;
+}
+
+.cursuri-copii,
+.despre-mihaela-ardeleanu {
+  background-color: #F48B7B;
+}
+
+.activitati-germana {
+  background-color: #C6DDCD;
+}
+
+.lista-activitati {
+  background-color: #231F1F;
+  color: white;
+  padding: 11.2rem 21.4rem 8.5rem;
+}
+
+.cursuri-adulti {
+  background-color: #C5CADD;
+}
+
+.traduceri-interpretariat {
+  background-color: #EAC983;
+}
+
+/*# sourceMappingURL=style.css.map */
