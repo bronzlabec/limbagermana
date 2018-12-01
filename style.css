@@ -71,48 +71,10 @@ p {
   font-weight: bold;
 }
 
-.flexat {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-  margin: -1rem;
-}
-
-.card {
-  padding: 2rem;
-  flex: 1;
-  margin: 1rem;
-  min-width: 250px;
-}
-.card i {
-  display: block;
-  text-align: center;
-  font-size: 8rem;
-  margin: 1rem;
-}
-
-.card__pink {
-  border: 1px solid #f8b4aa;
-}
-.card__pink i {
-  color: #f8b4aa;
-  filter: drop-shadow(2px 2px 2px #f27663);
-}
-
-.card__green {
-  border: 1px solid #e6f0e9;
-}
-.card__green i {
-  color: #e6f0e9;
-  filter: drop-shadow(2px 2px 2px #b6d3bf);
-}
-
-.card__lila {
-  border: 1px solid #e5e7f0;
-}
-.card__lila i {
-  color: #e5e7f0;
-  filter: drop-shadow(2px 2px 2px #b5bbd4);
+p > em {
+  background-color: #231F1F;
+  color: #EAC983;
+  font-style: normal;
 }
 
 .underline {
@@ -163,6 +125,59 @@ p {
   background-color: #EAC983;
 }
 
+.cursuri-copii,
+.activitati-germana,
+.traduceri-interpretariat,
+.despre-mihaela-ardeleanu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin: -1rem;
+}
+
+.activitati-germana > .coloana-mare {
+  order: 2;
+  flex: 3;
+}
+
+.despre-mihaela-ardeleanu > .coloana-mare {
+  order: 2;
+  flex: 2;
+}
+.despre-mihaela-ardeleanu > .coloana-mare img {
+  margin: 0 auto;
+}
+
+.coloana-mare {
+  flex: 5;
+  margin: 1rem;
+}
+
+.coloana-mica {
+  flex: 4;
+  margin: 1rem;
+}
+
+.coloana-ascunsa {
+  background-color: #FFFFFF;
+  margin: 1rem;
+  padding: 0.45rem;
+  overflow: hidden;
+  height: 0.05rem;
+}
+
+.detalii {
+  order: 3;
+}
+
+.detalii > p {
+  text-align: right;
+  margin: 1rem;
+  text-transform: uppercase;
+  line-height: 0.5;
+  font-size: 2rem;
+}
+
 @media (max-width: 1700px) {
   h1 {
     font-size: 4.7rem;
@@ -190,12 +205,17 @@ p {
   }
 }
 @media (max-width: 600px) {
+  .underline {
+    border-bottom-width: 0.6rem;
+  }
+
   h1 {
     font-size: 2.2rem;
   }
 
   h2 {
     font-size: 2rem;
+    line-height: 1.7;
   }
 
   section {
