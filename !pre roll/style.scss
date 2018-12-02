@@ -167,7 +167,11 @@ p>em {
 }
 
 .coloana-ascunsa {
+    background-color: $white;
     margin: 1rem;
+    padding: .45rem;
+    overflow: hidden;
+    height: .05rem;
 }
 
 .detalii {
@@ -180,19 +184,6 @@ p>em {
     text-transform: uppercase;
     line-height: .5;
     font-size: 2rem;
-}
-
-.materiale-didactice {
-    padding: 2rem 0;
-    display: flex;
-    flex-wrap: nowrap;
-    width: inherit;
-    justify-content: space-between;
-    overflow: hidden;
-    img {
-        height: 200px;
-        flex-shrink: 0;
-    }
 }
 
 @media (max-width: 1700px) {
@@ -222,10 +213,6 @@ p>em {
 @media (max-width: 600px) {
     .underline {
         border-bottom-width: .6rem;
-    }
-    section .logo {
-        padding-top: 4rem;
-        width: 70vw;
     }
     h1 {
         font-size: 2.2rem;

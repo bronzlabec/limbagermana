@@ -159,7 +159,11 @@ p > em {
 }
 
 .coloana-ascunsa {
+  background-color: #FFFFFF;
   margin: 1rem;
+  padding: 0.45rem;
+  overflow: hidden;
+  height: 0.05rem;
 }
 
 .detalii {
@@ -172,19 +176,6 @@ p > em {
   text-transform: uppercase;
   line-height: 0.5;
   font-size: 2rem;
-}
-
-.materiale-didactice {
-  padding: 2rem 0;
-  display: flex;
-  flex-wrap: nowrap;
-  width: inherit;
-  justify-content: space-between;
-  overflow: hidden;
-}
-.materiale-didactice img {
-  height: 200px;
-  flex-shrink: 0;
 }
 
 @media (max-width: 1700px) {
@@ -216,11 +207,6 @@ p > em {
 @media (max-width: 600px) {
   .underline {
     border-bottom-width: 0.6rem;
-  }
-
-  section .logo {
-    padding-top: 4rem;
-    width: 70vw;
   }
 
   h1 {
