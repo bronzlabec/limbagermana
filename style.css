@@ -71,10 +71,9 @@ p {
   font-weight: bold;
 }
 
-p > em {
-  background-color: #231F1F;
-  color: #EAC983;
-  font-style: normal;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .underline {
@@ -125,66 +124,65 @@ p > em {
   background-color: #EAC983;
 }
 
-.cursuri-copii,
-.activitati-germana,
-.traduceri-interpretariat,
-.despre-mihaela-ardeleanu {
+.servicii {
+  margin-top: -3rem;
+  margin-bottom: 5rem;
+}
+
+.cutie-flex {
   display: flex;
+  margin: -1rem;
   flex-wrap: wrap;
   align-items: stretch;
-  margin: -1rem;
 }
 
-.activitati-germana > .coloana-mare {
-  order: 2;
-  flex: 3;
+.card {
+  padding: 2rem;
+  flex: 1;
+  margin: 1rem;
+  min-width: 450px;
+}
+.card i {
+  display: block;
+  text-align: center;
+  font-size: 8rem;
+  margin: 1rem;
 }
 
-.despre-mihaela-ardeleanu > .coloana-mare {
-  order: 2;
+.card__pink {
+  border: 1px solid #f8b4aa;
+}
+.card__pink i {
+  color: #f8b4aa;
+}
+
+.card__green {
+  border: 1px solid #e6f0e9;
+}
+.card__green i {
+  color: #e6f0e9;
+}
+
+.card__lila {
+  border: 1px solid #e5e7f0;
+}
+.card__lila i {
+  color: #e5e7f0;
+}
+
+.card__yellow {
+  border: 1px solid #f1dcaf;
+}
+.card__yellow i {
+  color: #f1dcaf;
+}
+
+.card__doi {
   flex: 2;
 }
-.despre-mihaela-ardeleanu > .coloana-mare img {
-  margin: 0 auto;
-}
 
-.coloana-mare {
-  flex: 5;
-  margin: 1rem;
-}
-
-.coloana-mica {
-  flex: 4;
-  margin: 1rem;
-}
-
-.coloana-ascunsa {
-  margin: 1rem;
-}
-
-.detalii {
-  order: 3;
-}
-
-.detalii > p {
-  text-align: right;
-  margin: 1rem;
-  text-transform: uppercase;
-  line-height: 0.5;
-  font-size: 2rem;
-}
-
-.materiale-didactice {
-  padding: 2rem 0;
-  display: flex;
-  flex-wrap: nowrap;
-  width: inherit;
-  justify-content: space-between;
-  overflow: hidden;
-}
-.materiale-didactice img {
-  height: 200px;
-  flex-shrink: 0;
+.card__trei {
+  flex: 3;
 }
 
 @media (max-width: 1700px) {
@@ -194,6 +192,10 @@ p > em {
 
   section {
     padding: 11.2rem 14rem 8.5rem;
+  }
+
+  .card {
+    min-width: 425px;
   }
 }
 @media (max-width: 1300px) {
@@ -211,6 +213,27 @@ p > em {
 
   h3 {
     font-size: 2rem;
+  }
+
+  .card {
+    min-width: 375px;
+  }
+}
+@media (max-width: 1023px) {
+  .cutie-flex {
+    display: block;
+  }
+
+  .card {
+    padding: 0;
+    min-width: 10px;
+  }
+
+  .card__pink, .card__lila, .card__yellow, .card__green {
+    border: none;
+  }
+  .card__pink i.decor, .card__lila i.decor, .card__yellow i.decor, .card__green i.decor {
+    display: none;
   }
 }
 @media (max-width: 600px) {
@@ -230,6 +253,11 @@ p > em {
   h2 {
     font-size: 2rem;
     line-height: 1.7;
+    padding-bottom: 1rem;
+  }
+
+  .servicii {
+    margin: 0;
   }
 
   section {
@@ -238,6 +266,10 @@ p > em {
 
   p {
     font-size: 1.8rem;
+  }
+
+  .card i {
+    font-size: 4rem;
   }
 }
 

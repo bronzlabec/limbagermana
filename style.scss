@@ -5,6 +5,7 @@ $green: #C6DDCD;
 $yellow: #EAC983;
 $lila: #C5CADD;
 $white: #FFFFFF;
+
 // generale
 * {
     margin: 0;
@@ -79,11 +80,12 @@ p {
     font-weight: bold;
 }
 
-p>em {
-    background-color: $black;
-    color: $yellow;
-    font-style: normal;
+img {
+    max-width: 100%; 
+    height: auto;
 }
+
+
 
 .underline {
     border-bottom-width: .9rem;
@@ -110,6 +112,8 @@ p>em {
     border-bottom-color: $white;
 }
 
+
+
 .cursuri-copii,
 .despre-mihaela-ardeleanu {
     background-color: $pink;
@@ -133,67 +137,70 @@ p>em {
     background-color: $yellow;
 }
 
-.cursuri-copii,
-.activitati-germana,
-.traduceri-interpretariat,
-.despre-mihaela-ardeleanu {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    margin: -1rem;
+.servicii {
+    margin-top: -3rem;
+    margin-bottom: 5rem;
 }
 
-.activitati-germana>.coloana-mare {
-    order: 2;
+
+.cutie-flex {
+    display: flex;
+    margin: -1rem;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.card {
+    padding: 2rem;
+    flex: 1;
+    margin: 1rem;
+    min-width: 450px;
+    i {
+        display: block;
+        text-align: center;
+        font-size: 8rem;
+        margin: 1rem;
+    }
+}
+
+.card__pink {
+    border: 1px solid lighten($pink, 10);
+    i {
+        color: lighten($pink, 10);
+    }
+}
+
+.card__green {
+    border: 1px solid lighten($green, 10);
+    i {
+        color: lighten($green, 10);
+    }
+}
+
+.card__lila {
+    border: 1px solid lighten($lila, 10);
+    i {
+        color: lighten($lila, 10);
+    }
+}
+
+.card__yellow {
+    border: 1px solid lighten($yellow, 10);
+    i {
+        color: lighten($yellow, 10);
+    }
+}
+
+.card__doi {
+    flex: 2;
+}
+
+.card__trei {
     flex: 3;
 }
 
-.despre-mihaela-ardeleanu>.coloana-mare {
-    order: 2;
-    flex: 2;
-    img {
-        margin: 0 auto;
-    }
-}
 
-.coloana-mare {
-    flex: 5;
-    margin: 1rem;
-}
 
-.coloana-mica {
-    flex: 4;
-    margin: 1rem;
-}
-
-.coloana-ascunsa {
-    margin: 1rem;
-}
-
-.detalii {
-    order: 3;
-}
-
-.detalii>p {
-    text-align: right;
-    margin: 1rem;
-    text-transform: uppercase;
-    line-height: .5;
-    font-size: 2rem;
-}
-
-.materiale-didactice {
-    padding: 2rem 0;
-    display: flex;
-    flex-wrap: nowrap;
-    width: inherit;
-    justify-content: space-between;
-    overflow: hidden;
-    img {
-        height: 200px;
-        flex-shrink: 0;
-    }
-}
 
 @media (max-width: 1700px) {
     h1 {
@@ -201,6 +208,9 @@ p>em {
     }
     section {
         padding: 11.2rem 14rem 8.5rem;
+    }
+    .card {
+        min-width: 425px;
     }
 }
 
@@ -216,6 +226,25 @@ p>em {
     }
     h3 {
         font-size: 2rem;
+    }
+    .card {
+        min-width: 375px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .cutie-flex {
+        display: block;
+    }
+    .card {
+        padding: 0;
+        min-width: 10px;
+    }
+    .card__pink, .card__lila, .card__yellow, .card__green {
+        border: none;
+        i.decor {
+            display: none;
+        }
     }
 }
 
@@ -233,11 +262,18 @@ p>em {
     h2 {
         font-size: 2rem;
         line-height: 1.7;
+        padding-bottom: 1rem;
+    }
+    .servicii {
+        margin: 0;
     }
     section {
         padding: 3rem;
     }
     p {
         font-size: 1.8rem;
+    }
+    .card i {
+        font-size: 4rem;
     }
 }
