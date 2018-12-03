@@ -1,0 +1,408 @@
+// variabile
+$black: #231F1F;
+$pink: #F48B7B;
+$green: #C6DDCD;
+$yellow: #EAC983;
+$lila: #C5CADD;
+$white: #FFFFFF;
+// generale
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+    font-size: 62.5%;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+section {
+    padding: 11.2rem 21.4rem 8.5rem;
+    color: $black;
+    .logo {
+        width: 60vw;
+        height: auto;
+        padding: 6rem 1rem 3rem;
+    }
+    .contact-rapid {
+        font-weight: bold;
+        font-size: 2rem;
+        margin-top: 8rem;
+        font-family: 'IBM Plex Sans', sans-serif;
+    }
+}
+
+h1 {
+    font-size: 5.6rem;
+    letter-spacing: .075rem;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    margin-left: .3rem;
+    position: relative;
+    font-family: 'IBM Plex Mono', monospace;
+    span {
+        padding-bottom: .3rem;
+    }
+}
+
+p {
+    font-size: 2.4rem;
+    line-height: 1.5;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: bold;
+}
+
+.preload {
+    min-width: 100%;
+    min-height: 100vh;
+    background-color: $white;
+    animation: fadein 2500ms;
+    padding-top: 15rem;
+    padding-left: 12rem;
+}
+
+.preload svg.logo-lim {
+    animation: att-lim 2500ms ease-in;
+}
+
+.preload svg.logo-ba {
+    animation: att-ba 2500ms ease-in;
+}
+
+.preload svg.logo-ger {
+    animation: att-ger 2500ms ease-in;
+}
+
+.preload svg.logo-ma {
+    animation: att-ma 2500ms ease-in;
+}
+
+.preload svg.logo-na {
+    animation: att-na 2500ms ease-in;
+}
+
+.preload svg.logo-ro {
+    animation: att-ro 2500ms ease-in;
+}
+
+@keyframes fadein {
+    0% {
+        background: lighten($pink, $amount: 15);
+    }
+    4% {
+        background: $pink;
+    }
+    70% {
+        background: $pink;
+    }
+    80% {
+        background: $white;
+    }
+}
+
+// @mixin animatie($nume, $intarziere, $orizontal, $vertical, $rotatie) {
+//     @keyframes $nume {
+//         0% {
+//             transform: translate($orizontal, $vertical) rotate($rotatie) scale(2);
+//             fill: $white;
+//             opacity: 0;
+//         }
+//         8% {
+//             transform: translate($orizontal, $vertical) rotate($rotatie) scale(2);
+//             fill: $white;
+//             opacity: 0;
+//         }
+//         18% {
+//             transform: translate($orizontal, $vertical) rotate($rotatie) scale(2);
+//             fill: $white;
+//             opacity: 1;
+//         }
+//         80% {
+//             transform: translate($orizontal, $vertical) rotate($rotatie) scale(2);
+//             fill: $white;
+//             opacity: 1;
+//         }
+//         100% {
+//             transform: translate(0, 0) rotate(0);
+//             fill: $black;
+//             opacity: 1;
+//         }
+//     }
+// }
+@keyframes att-lim {
+    0% {
+        transform: translate(75vw, 60vh) rotate(40deg) scale(2);
+        fill: $white;
+        opacity: 0;
+    }
+    8% {
+        transform: translate(75vw, 60vh) rotate(40deg) scale(2);
+        fill: $white;
+        opacity: 0;
+    }
+    18% {
+        transform: translate(75vw, 60vh) rotate(40deg) scale(2);
+        fill: $white;
+        opacity: 1;
+    }
+    80% {
+        transform: translate(75vw, 60vh) rotate(40deg) scale(2);
+        fill: $white;
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0, 0) rotate(0);
+        fill: $black;
+        opacity: 1;
+    }
+}
+
+@keyframes att-ba {
+    0% {
+        transform: translate(74vw, 1vh) rotate(-45deg) scale(2);
+        fill: $white;
+        opacity: 0;
+    }
+    16% {
+        transform: translate(74vw, 1vh) rotate(-45deg) scale(2);
+        fill: $white;
+        opacity: 0;
+    }
+    26% {
+        transform: translate(74vw, 1vh) rotate(-45deg) scale(2);
+        fill: $white;
+        opacity: 1;
+    }
+    82% {
+        transform: translate(74vw, 1vh) rotate(-45deg) scale(2);
+        fill: $white;
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0, 0) rotate(0);
+        fill: $black;
+        opacity: 1;
+    }
+}
+
+@keyframes att-ger {
+    0% {
+        transform: translate(55vw, 31vh) rotate(27deg) scale(2);
+        fill: $white;
+        opacity: 0;
+    }
+    24% {
+        transform: translate(55vw, 31vh) rotate(27deg) scale(2);
+        fill: $white;
+        opacity: 0;
+    }
+    34% {
+        transform: translate(55vw, 31vh) rotate(27deg) scale(2);
+        fill: $white;
+        opacity: 1;
+    }
+    83% {
+        transform: translate(55vw, 31vh) rotate(27deg) scale(2);
+        fill: $white;
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0, 0) rotate(0);
+        fill: $black;
+        opacity: 1;
+    }
+}
+
+@keyframes att-ma {
+    0% {
+        transform: translate(29vw, -5vh) rotate(-5deg) scale(2);
+        fill: $white;
+        opacity: 0;
+    }
+    24% {
+        transform: translate(29vw, -5vh) rotate(-5deg) scale(2);
+        fill: $white;
+        opacity: 0;
+    }
+    34% {
+        transform: translate(29vw, -5vh) rotate(-5deg) scale(2);
+        fill: $white;
+        opacity: 1;
+    }
+    83% {
+        transform: translate(29vw, -5vh) rotate(-5deg) scale(2);
+        fill: $white;
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0, 0) rotate(0);
+        fill: $black;
+        opacity: 1;
+    }
+}
+
+@keyframes att-na {
+    0% {
+        transform: translate(7vw, 34vh) rotate(22deg) scale(2);
+        fill: $white;
+        opacity: 0;
+    }
+    32% {
+        transform: translate(7vw, 34vh) rotate(22deg) scale(2);
+        fill: $white;
+        opacity: 0;
+    }
+    42% {
+        transform: translate(7vw, 34vh) rotate(22deg) scale(2);
+        fill: $white;
+        opacity: 1;
+    }
+    83% {
+        transform: translate(7vw, 34vh) rotate(22deg) scale(2);
+        fill: $white;
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0, 0) rotate(0);
+        fill: $black;
+        opacity: 1;
+    }
+}
+
+@keyframes att-ro {
+    0% {
+        transform: translate(-11vw, 6vh) rotate(-52deg) scale(2);
+        fill: $white;
+        opacity: 0;
+    }
+    40% {
+        transform: translate(-11vw, 6vh) rotate(-52deg) scale(2);
+        fill: $white;
+        opacity: 0;
+    }
+    50% {
+        transform: translate(-11vw, 6vh) rotate(-52deg) scale(2);
+        fill: $white;
+        opacity: 1;
+    }
+    83% {
+        transform: translate(-11vw, 6vh) rotate(-52deg) scale(2);
+        fill: $white;
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0, 0) rotate(0);
+        fill: $black;
+        opacity: 1;
+    }
+}
+
+.container {
+    display: none;
+}
+
+// .svg-lim {
+//     transform: rotate(15deg);
+// }
+.underline {
+    border-bottom-width: .9rem;
+    border-bottom-style: solid;
+}
+
+.pink {
+    border-bottom-color: $pink;
+}
+
+.green {
+    border-bottom-color: $green;
+}
+
+.yellow {
+    border-bottom-color: $yellow;
+}
+
+.lila {
+    border-bottom-color: $lila;
+}
+
+@media (max-width: 1700px) {
+    h1 {
+        font-size: 4.7rem;
+    }
+    section {
+        padding: 11.2rem 14rem 8.5rem;
+    }
+    .card {
+        min-width: 425px;
+    }
+}
+
+@media (max-width: 1300px) {
+    section {
+        padding: 6rem;
+    }
+    h1 {
+        font-size: 3.7rem;
+    }
+    h2 {
+        font-size: 3.5rem;
+    }
+    h3 {
+        font-size: 2rem;
+    }
+    .card {
+        min-width: 375px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .cutie-flex {
+        display: block;
+    }
+    .card {
+        padding: 0;
+        min-width: 10px;
+    }
+    .card__pink,
+    .card__lila,
+    .card__yellow,
+    .card__green {
+        border: none;
+        i.decor {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .underline {
+        border-bottom-width: .6rem;
+    }
+    section .logo {
+        padding-top: 4rem;
+        width: 70vw;
+    }
+    h1 {
+        font-size: 2.2rem;
+    }
+    h2 {
+        font-size: 2rem;
+        line-height: 1.7;
+        padding-bottom: 1rem;
+    }
+    .servicii {
+        margin: 0;
+    }
+    section {
+        padding: 3rem;
+    }
+    p {
+        font-size: 1.8rem;
+    }
+    .card i {
+        font-size: 4rem;
+    }
+}

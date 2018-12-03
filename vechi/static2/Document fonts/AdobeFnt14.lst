@@ -11,7 +11,7 @@ FullName:IBM Plex Sans Bold
 MenuName:IBM Plex Sans
 StyleBits:2
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-Bold.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-Bold.ttf
 DataFormat:sfntData
 FileLength:142768
 FileModTime:1543161234
@@ -30,7 +30,7 @@ FullName:IBM Plex Sans Bold Italic
 MenuName:IBM Plex Sans
 StyleBits:3
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-BoldItalic.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-BoldItalic.ttf
 DataFormat:sfntData
 FileLength:150856
 FileModTime:1543161234
@@ -49,7 +49,7 @@ FullName:IBM Plex Sans ExtraLight
 MenuName:IBM Plex Sans ExtraLight
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-ExtraLight.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-ExtraLight.ttf
 DataFormat:sfntData
 FileLength:144984
 FileModTime:1543161233
@@ -68,7 +68,7 @@ FullName:IBM Plex Sans ExtraLight Italic
 MenuName:IBM Plex Sans ExtraLight
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-ExtraLightItalic.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-ExtraLightItalic.ttf
 DataFormat:sfntData
 FileLength:153052
 FileModTime:1543161233
@@ -87,7 +87,7 @@ FullName:IBM Plex Sans Italic
 MenuName:IBM Plex Sans
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-Italic.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-Italic.ttf
 DataFormat:sfntData
 FileLength:151104
 FileModTime:1543161234
@@ -106,7 +106,7 @@ FullName:IBM Plex Sans Light
 MenuName:IBM Plex Sans Light
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-Light.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-Light.ttf
 DataFormat:sfntData
 FileLength:144156
 FileModTime:1543161233
@@ -125,7 +125,7 @@ FullName:IBM Plex Sans Light Italic
 MenuName:IBM Plex Sans Light
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-LightItalic.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-LightItalic.ttf
 DataFormat:sfntData
 FileLength:151984
 FileModTime:1543161234
@@ -144,7 +144,7 @@ FullName:IBM Plex Sans Medium
 MenuName:IBM Plex Sans Medium
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-Medium.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-Medium.ttf
 DataFormat:sfntData
 FileLength:143544
 FileModTime:1543161234
@@ -163,7 +163,7 @@ FullName:IBM Plex Sans Medium Italic
 MenuName:IBM Plex Sans Medium
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-MediumItalic.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-MediumItalic.ttf
 DataFormat:sfntData
 FileLength:150920
 FileModTime:1543161234
@@ -182,7 +182,7 @@ FullName:IBM Plex Sans
 MenuName:IBM Plex Sans
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-Regular.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-Regular.ttf
 DataFormat:sfntData
 FileLength:142836
 FileModTime:1543161234
@@ -201,7 +201,7 @@ FullName:IBM Plex Sans SemiBold
 MenuName:IBM Plex Sans SemiBold
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-SemiBold.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-SemiBold.ttf
 DataFormat:sfntData
 FileLength:143828
 FileModTime:1543161234
@@ -220,7 +220,7 @@ FullName:IBM Plex Sans SemiBold Italic
 MenuName:IBM Plex Sans SemiBold
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-SemiBoldItalic.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-SemiBoldItalic.ttf
 DataFormat:sfntData
 FileLength:151168
 FileModTime:1543161234
@@ -239,7 +239,7 @@ FullName:IBM Plex Sans Thin
 MenuName:IBM Plex Sans Thin
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-Thin.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-Thin.ttf
 DataFormat:sfntData
 FileLength:145320
 FileModTime:1543161233
@@ -258,7 +258,7 @@ FullName:IBM Plex Sans Thin Italic
 MenuName:IBM Plex Sans Thin
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-ThinItalic.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Sans\IBMPlexSans-ThinItalic.ttf
 DataFormat:sfntData
 FileLength:153100
 FileModTime:1543161233
@@ -270,7 +270,7 @@ AngleClass:1
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Sans\OFL.txt
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Sans\OFL.txt
 FileModTime:1543161233
 %EndFont
 
@@ -284,7 +284,7 @@ FullName:IBM Plex Mono Bold
 MenuName:IBM Plex Mono
 StyleBits:2
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-Bold.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-Bold.ttf
 DataFormat:sfntData
 FileLength:107432
 FileModTime:1543161233
@@ -303,7 +303,7 @@ FullName:IBM Plex Mono Bold Italic
 MenuName:IBM Plex Mono
 StyleBits:3
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-BoldItalic.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-BoldItalic.ttf
 DataFormat:sfntData
 FileLength:113272
 FileModTime:1543161233
@@ -322,7 +322,7 @@ FullName:IBM Plex Mono ExtraLight
 MenuName:IBM Plex Mono ExtraLight
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-ExtraLight.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-ExtraLight.ttf
 DataFormat:sfntData
 FileLength:105692
 FileModTime:1543161233
@@ -341,7 +341,7 @@ FullName:IBM Plex Mono ExtraLight Italic
 MenuName:IBM Plex Mono ExtraLight
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-ExtraLightItalic.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-ExtraLightItalic.ttf
 DataFormat:sfntData
 FileLength:113220
 FileModTime:1543161233
@@ -360,7 +360,7 @@ FullName:IBM Plex Mono Italic
 MenuName:IBM Plex Mono
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-Italic.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-Italic.ttf
 DataFormat:sfntData
 FileLength:112664
 FileModTime:1543161233
@@ -379,7 +379,7 @@ FullName:IBM Plex Mono Light
 MenuName:IBM Plex Mono Light
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-Light.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-Light.ttf
 DataFormat:sfntData
 FileLength:104884
 FileModTime:1543161233
@@ -398,7 +398,7 @@ FullName:IBM Plex Mono Light Italic
 MenuName:IBM Plex Mono Light
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-LightItalic.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-LightItalic.ttf
 DataFormat:sfntData
 FileLength:112080
 FileModTime:1543161233
@@ -417,7 +417,7 @@ FullName:IBM Plex Mono Medium
 MenuName:IBM Plex Mono Medium
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-Medium.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-Medium.ttf
 DataFormat:sfntData
 FileLength:106348
 FileModTime:1543161233
@@ -436,7 +436,7 @@ FullName:IBM Plex Mono Medium Italic
 MenuName:IBM Plex Mono Medium
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-MediumItalic.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-MediumItalic.ttf
 DataFormat:sfntData
 FileLength:112740
 FileModTime:1543161233
@@ -455,7 +455,7 @@ FullName:IBM Plex Mono
 MenuName:IBM Plex Mono
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-Regular.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-Regular.ttf
 DataFormat:sfntData
 FileLength:105184
 FileModTime:1543161233
@@ -474,7 +474,7 @@ FullName:IBM Plex Mono SemiBold
 MenuName:IBM Plex Mono SemiBold
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-SemiBold.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-SemiBold.ttf
 DataFormat:sfntData
 FileLength:109844
 FileModTime:1543161233
@@ -493,7 +493,7 @@ FullName:IBM Plex Mono SemiBold Italic
 MenuName:IBM Plex Mono SemiBold
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-SemiBoldItalic.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-SemiBoldItalic.ttf
 DataFormat:sfntData
 FileLength:116040
 FileModTime:1543161233
@@ -512,7 +512,7 @@ FullName:IBM Plex Mono Thin
 MenuName:IBM Plex Mono Thin
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-Thin.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-Thin.ttf
 DataFormat:sfntData
 FileLength:107492
 FileModTime:1543161233
@@ -531,7 +531,7 @@ FullName:IBM Plex Mono Thin Italic
 MenuName:IBM Plex Mono Thin
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-ThinItalic.ttf
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Mono\IBMPlexMono-ThinItalic.ttf
 DataFormat:sfntData
 FileLength:114696
 FileModTime:1543161233
@@ -543,7 +543,7 @@ AngleClass:1
 %BeginFont
 Handler:DirectoryHandler
 FontType:Invalid
-OutlineFileName:D:\dev\limbagermana\static2\Document fonts\IBM_Plex_Mono\OFL.txt
+OutlineFileName:D:\dev\limbagermana\vechi\static2\Document fonts\IBM_Plex_Mono\OFL.txt
 FileModTime:1543161233
 %EndFont
 
