@@ -4,8 +4,8 @@ $pink: #F48B7B;
 $green: #C6DDCD;
 $yellow: #EAC983;
 $lila: #C5CADD;
+$links: #61606e;
 $white: #FFFFFF;
-
 // generale
 * {
     margin: 0;
@@ -81,11 +81,15 @@ p {
 }
 
 img {
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
 }
 
-
+a,
+a:visited {
+    color: $links;
+    text-decoration: none;
+}
 
 .underline {
     border-bottom-width: .9rem;
@@ -111,8 +115,6 @@ img {
 .white {
     border-bottom-color: $white;
 }
-
-
 
 .cursuri-copii,
 .despre-mihaela-ardeleanu {
@@ -141,7 +143,6 @@ img {
     margin-top: -3rem;
     margin-bottom: 5rem;
 }
-
 
 .cutie-flex {
     display: flex;
@@ -199,9 +200,6 @@ img {
     flex: 3;
 }
 
-
-
-
 @media (max-width: 1700px) {
     h1 {
         font-size: 4.7rem;
@@ -240,7 +238,10 @@ img {
         padding: 0;
         min-width: 10px;
     }
-    .card__pink, .card__lila, .card__yellow, .card__green {
+    .card__pink,
+    .card__lila,
+    .card__yellow,
+    .card__green {
         border: none;
         i.decor {
             display: none;
